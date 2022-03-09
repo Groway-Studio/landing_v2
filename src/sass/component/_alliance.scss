@@ -1,0 +1,32 @@
+@import "./../base/_base.scss";
+
+.allianceComponent{
+    margin-top: 242px;
+    section{
+        width: $container;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      aside{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+         hr{
+             width: 80%;
+             border: 1px solid #ededed;
+         }
+        .title{
+            text-align: center;
+            padding-bottom: 68px;
+        }
+        .alliances{
+            margin: 32px 0;
+            img{
+                margin-right: 32px;
+            }
+        }
+      }
+    }
+}

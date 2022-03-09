@@ -1,0 +1,23 @@
+@import "./../base/_base.scss";
+
+.ctaComponent{
+    background-image: url("./../../assets/bg-cta.svg");
+    background-repeat: no-repeat;
+    height: 541px;
+    display: flex;
+    margin-top: 114px;
+  
+    .container{
+        width: $container;
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-around;
+        padding-bottom: 104px;
+        .title{
+            width: 340px;
+        }
+    }
+}

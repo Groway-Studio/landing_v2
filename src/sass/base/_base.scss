@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+$primary-color: #084887;
+$secondary-color: #F58A07;
+$neutral-color-1000: #031D44;
+$neutral-color-600: #111827;
+$neutral-color-500: #2F2E41;
+$neutral-color-100: #F9F7F8;
+$neutral-color-0: #FFFFFF;
+
+$size: 8px;
+$spacing: 4px;
+$grid: 1440px;
+$container: 1280px;
+
+//-------- MEDIAQUERIES --------
+$tablet: 600px;
+$desktop: 900px;
+$desktop_m: 1680px;
+$desktop_xl: 1920px;
+
+@mixin phone {
+  @media (max-width: #{$tablet - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet}) and (max-width: #{$desktop - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop}) {
+    @content;
+  }
+}
+
+@mixin desktop_hd {
+  @media (min-width: #{$desktop_m}) and (max-width: #{$desktop_xl}) {
+    @content;
+  }
+}
+
+@mixin devices {
+  @media (max-width: #{$desktop - 1px}) {
+    @content;
+  }
+}
+
+
+
+:root{
+    --menu-item: #{$size*2};
+
+    --spacing-1: #{$spacing};
+    --spacing-2: #{$spacing*2};
+    --spacing-3: #{$spacing*4};
+    --spacing-4: #{$spacing*8};
+    --spacing-5: #{$spacing*10};
+
+    --size-4: #{$size*4};
+    --size-3: #{$size*3};
+    --size-2: #{$size*2};
+    --size-1: #{$size};
+
+    --title-h1: #{$size*12};
+    --title-h2: #{$size*4+4};
+    --title-h3: var(--size-3);
+
+    --paragraph-1: var(--size-2);
+}

@@ -1,0 +1,17 @@
+@import "./../base/_base.scss";
+
+.navMenu{
+    padding-top: var(--spacing-3);
+    width: $container!important;
+    margin: 0 auto;
+}
+.navMenuItems{
+    color: $primary-color;
+    p{
+        margin-right: $size*7;
+        font-size: var(--size-2);
+        &:last-child{
+            margin-right:0;
+        }
+    }
+}
