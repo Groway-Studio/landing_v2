@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bd441577.css",
+    "main.js": "/static/js/main.15809c01.js",
+    "static/media/logo2.svg": "/static/media/logo2.984bb96f9d241dc2a015cc3c8340c5b6.svg",
+    "static/media/ilus-hero.svg": "/static/media/ilus-hero.7684b8b33b3018d5140eb3c6fe7ab75d.svg",
+    "static/media/ilus-service.svg": "/static/media/ilus-service.80a20ab21e0d65b6284abb03b45f85bc.svg",
+    "static/media/logo1.svg": "/static/media/logo1.8b830ca8115b40ae1e690e7668db87a6.svg",
+    "static/media/allianceIlus.svg": "/static/media/allianceIlus.897539e5dcb0aa850ed7e153f34dd234.svg",
+    "static/media/alliance1.svg": "/static/media/alliance1.b4f2cf5b9b47e4df0ca69fb9cd4b15c7.svg",
+    "static/media/alliance2.svg": "/static/media/alliance2.3337e4b8c3280f46a3604071925f972e.svg",
+    "static/media/alliance3.svg": "/static/media/alliance3.11c6d9fa5131a1824db7600c019b9479.svg",
+    "static/media/manos.svg": "/static/media/manos.5a62d351116ca76c9b8dbc4c17bf94a4.svg",
+    "static/media/ic-socials-1.svg": "/static/media/ic-socials-1.6c81e7a2ddaa7d0561f2f054349a3375.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.975bb0dbee9c29d242966879ee0af44c.svg",
+    "static/media/fb.svg": "/static/media/fb.493b4d2e5ef85d0ade528ce24c1570a2.svg",
+    "static/media/ic-socials.svg": "/static/media/ic-socials.ac01121793444ac3eb7abaad6ec6f104.svg",
+    "static/media/estadistica.svg": "/static/media/estadistica.93d9db88d24476e7b2ae054c8db69fd7.svg",
+    "static/media/instagram.svg": "/static/media/instagram.aa0e82e17134bdf6f7c2ea988210378f.svg",
+    "static/media/ic-socials-2.svg": "/static/media/ic-socials-2.46c826c6594121dc48e86a7bc917a3c5.svg",
+    "static/media/foco.svg": "/static/media/foco.1d0731b8a941873636387ad83a307120.svg",
+    "static/media/3.svg": "/static/media/3.a1619e241829fe739445080242336e75.svg",
+    "static/media/franja2.svg": "/static/media/franja2.2b162e69b71c7bf905b6fe7d65a55030.svg",
+    "static/media/2.svg": "/static/media/2.f380fd51704798be308c5fd1171bb60b.svg",
+    "index.html": "/index.html",
+    "static/media/bg-cta.svg": "/static/media/bg-cta.cc672ca94e384976a0a3edc37a4e90df.svg",
+    "static/media/reconocimientos.svg": "/static/media/reconocimientos.166baf7d8de304b161d5d36243b68dcc.svg",
+    "static/media/franja.svg": "/static/media/franja.e21a1bed11d2f5b7f6d39b2a7d37b03f.svg",
+    "static/media/blob-header.svg": "/static/media/blob-header.40bf460f070ed3d8fb2ca2ada5514803.svg",
+    "static/media/4.svg": "/static/media/4.f1a2df614bf1a7899ae9df656f6391aa.svg",
+    "static/media/1.svg": "/static/media/1.3de46076120c649723ed3ff4b2c4702e.svg",
+    "main.bd441577.css.map": "/static/css/main.bd441577.css.map",
+    "main.15809c01.js.map": "/static/js/main.15809c01.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd441577.css",
+    "static/js/main.15809c01.js"
+  ]
+}
