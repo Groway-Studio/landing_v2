@@ -1,5 +1,4 @@
 import * as React from "react";
-import { Box, Typography } from "@material-ui/core";
 import LogoGrowayWhite from "./../../assets/logo-white.png";
 import "./../../sass/shared/_footer.scss";
 import fbIlus from "./../../assets/ic-socials-2.svg";
