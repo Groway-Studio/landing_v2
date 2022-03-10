@@ -1,18 +1,6 @@
 @import "./../base/_base.scss";
 
 .weofferComponent {
-  .franjaBg {
-    background-image: url("./../../assets/franja.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    margin-top: -197px;
-  }
-  .outline {
-    border: 1px solid #cccccc;
-    width: 80%;
-    margin-bottom: 73px;
-  }
   .container {
     position: relative;
     z-index: 1000;
@@ -22,10 +10,13 @@
     margin: 0 auto 0;
     padding-top: 75px;
     align-items: center;
+    @include tablet {
+      width: $container-tablet;
+    }
     .title {
       text-align: center;
       color: $neutral-color-1000;
-      h2{
+      h2 {
         font-weight: 700;
       }
       h3 {
@@ -40,6 +31,28 @@
       flex-direction: row;
       justify-content: space-between;
       width: 100%;
+      @include tablet {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+       
+      }
+    }
+  }
+  .franjaBg {
+    background-image: url("./../../assets/franja.svg");
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: -197px;
+  }
+  .outline {
+    border: 1px solid #cccccc;
+    width: 80%;
+    margin-bottom: 73px;
+    @include tablet {
+      display: none;
     }
   }
 }

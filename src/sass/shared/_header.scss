@@ -2,8 +2,13 @@
 
 .navMenu{
     padding-top: var(--spacing-3);
-    width: $container!important;
+    width: $container;
     margin: 0 auto;
+    z-index: 100;
+    position: relative;
+    @include tablet{
+        width: $container-tablet;
+    }
 }
 .navMenuItems{
     color: $primary-color;
@@ -14,4 +19,12 @@
             margin-right:0;
         }
     }
+}
+
+.headerBg{
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+   
 }

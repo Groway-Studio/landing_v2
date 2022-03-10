@@ -22,6 +22,8 @@ export default function Awards() {
           <img src={premio2} alt="" />
           </aside>
         </section>
+        <img className="franja2BgTablet" src={Franja2Img} alt="" />
+
       </div>
     </React.Fragment>
   );

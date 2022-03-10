@@ -8,10 +8,21 @@
     justify-content: flex-end;
     align-items: center;
     margin: 0 auto;
+    position: relative;
+    z-index: 100;
+    @include tablet{
+        width: $container-tablet;
+        flex-direction: column;
+        margin-top: 61px;
+    }
 }
 .contentHero{
     width: 90%;
     padding-right: 15%;
+    @include tablet {
+        width: 100%;
+        padding-right: 0%;
+      }
     h1{
         font-style: normal;
         font-weight: bold;

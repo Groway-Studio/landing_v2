@@ -2,12 +2,19 @@
 
 .allianceComponent{
     margin-top: 242px;
+    @include tablet {
+        margin-top: 412px;
+    }
     section{
         width: $container;
         margin: 0 auto;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        @include tablet {
+            width: $container-tablet;
+            flex-direction: column-reverse;
+          }
       aside{
           display: flex;
           flex-direction: column;

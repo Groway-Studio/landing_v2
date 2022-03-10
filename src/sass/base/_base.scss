@@ -12,9 +12,10 @@ $size: 8px;
 $spacing: 4px;
 $grid: 1440px;
 $container: 1280px;
+$container-tablet: 674px;
 
 //-------- MEDIAQUERIES --------
-$tablet: 600px;
+$tablet: 768px;
 $desktop: 900px;
 $desktop_m: 1680px;
 $desktop_xl: 1920px;
@@ -51,23 +52,3 @@ $desktop_xl: 1920px;
 
 
 
-:root{
-    --menu-item: #{$size*2};
-
-    --spacing-1: #{$spacing};
-    --spacing-2: #{$spacing*2};
-    --spacing-3: #{$spacing*4};
-    --spacing-4: #{$spacing*8};
-    --spacing-5: #{$spacing*10};
-
-    --size-4: #{$size*4};
-    --size-3: #{$size*3};
-    --size-2: #{$size*2};
-    --size-1: #{$size};
-
-    --title-h1: #{$size*12};
-    --title-h2: #{$size*4+4};
-    --title-h3: var(--size-3);
-
-    --paragraph-1: var(--size-2);
-}

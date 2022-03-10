@@ -1,11 +1,11 @@
 @import "./../base/_base.scss";
 
 .ctaComponent{
-    background-image: url("./../../assets/bg-cta.svg");
-    background-repeat: no-repeat;
+    position: relative;
     height: 541px;
     display: flex;
-    margin-top: 114px;
+    // margin-top: 131px;
+    z-index: 100;
   
     .container{
         width: $container;
@@ -16,8 +16,16 @@
         align-items: flex-end;
         justify-content: space-around;
         padding-bottom: 104px;
+        @include tablet {
+            width: $container-tablet;
+          }
         .title{
             width: 340px;
         }
     }
+}
+.ctaBg{
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
 }
