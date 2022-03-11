@@ -24,7 +24,7 @@ export default function Alliance() {
             <hr />
           </aside>
           <aside>
-            <img src={imgIlus3} alt="" />
+            <img src={imgIlus3} alt="" className="imgIlus" />
           </aside>
         </section>
       </div>

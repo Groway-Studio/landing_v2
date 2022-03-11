@@ -4,10 +4,13 @@
   position: relative;
   height: 541px;
   display: flex;
-  // margin-top: 131px;
   z-index: 100;
   @include tablet {
     height: 341px;
+  }
+  @include phone {
+    height: auto;
+    margin-top: 0px;
   }
   .container {
     width: $container;
@@ -18,12 +21,35 @@
     align-items: flex-end;
     justify-content: space-around;
     padding-bottom: 104px;
+    
     @include tablet {
       width: $container-tablet;
 
     }
+    @include phone {
+      width: $container-phone;
+      margin-top: 34px;
+      padding-bottom: 0;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
     .title {
       width: 340px;
+      @include phone{
+         margin-bottom: 16px;
+      }
+      p{
+        margin-top: 8px;
+        font-size: 18px;
+        font-style: italic;
+        line-height: 27px!important;
+        font-weight: 400;
+       
+      }
+    }
+    &:last-child{
+      margin-top: 54px;
     }
   }
 }
@@ -34,5 +60,10 @@
   @include tablet {
     position: absolute;
     margin-top: 94px;
+  }
+  @include phone{
+    position: relative;
+    margin-bottom: -230px;
+
   }
 }

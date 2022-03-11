@@ -13,6 +13,9 @@
     @include tablet {
       width: $container-tablet;
     }
+    @include phone{
+      width: $container-phone;
+    }
     .title {
       text-align: center;
       color: $neutral-color-1000;
@@ -23,6 +26,10 @@
       h3 {
         font-style: italic;
         font-weight: normal;
+        @include phone{
+          font-size: 18px;
+          font-weight: 400;
+        }
       }
     }
 
@@ -36,7 +43,11 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-       
+      }
+      @include phone{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
       }
     }
   }

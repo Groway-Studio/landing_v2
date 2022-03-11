@@ -13,6 +13,12 @@
     padding: 24px 24px;
     margin-bottom: 16px;
   }
+  @include phone{
+    width: 128px;
+    margin-right: 7px;
+    padding: 16px;
+    margin-bottom: 1rem;
+  }
   &:nth-child(2) {
     @include tablet {
       margin-right: 0;

@@ -5,6 +5,10 @@
   @include tablet {
     margin-top: 412px;
   }
+  @include phone{
+    margin-top:382px;
+  }
+  
   section {
     width: $container;
     margin: 0 auto;
@@ -15,11 +19,20 @@
       width: $container-tablet;
       flex-direction: column-reverse;
     }
+    @include phone{
+      width: $container-phone;
+      flex-direction: column-reverse;
+    }
     aside {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+     .imgIlus{
+       @include phone{
+         width: 257px;
+       }
+     }
       hr {
         width: 80%;
         border: 1px solid #ededed;
@@ -30,10 +43,22 @@
         @include tablet {
             padding-top: 40px;
         }
-
+        @include phone{
+          padding-top: 40px;
+        }
+        p{
+          @include phone{
+            font-size: 16px;
+            font-style: italic;
+            font-weight: 400;
+          }
+        }
       }
       .alliances {
         margin: 32px 0;
+        @include phone{
+          text-align: center;
+        }
         img {
           margin-right: 32px;
           &:last-child{
@@ -43,6 +68,9 @@
           }
           @include tablet {
             margin-right: 24px;
+          }
+          @include phone{
+            margin-right: 0;
           }
         }
       }

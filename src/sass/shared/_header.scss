@@ -9,11 +9,16 @@
   @include tablet {
     width: $container-tablet;
   }
+  @include phone {
+    width: $container-phone;
+  }
 }
-
 
 .navMenuItems {
   color: $primary-color;
+  @include phone {
+    display: none!important;
+  }
   p {
     margin-right: $size * 7;
     font-size: var(--size-2);
@@ -22,8 +27,9 @@
     }
   }
 }
-img .headerBg{
-    height: 300px;
+img .headerBg {
+  height: 300px;
+  
 }
 .headerBg {
   background-repeat: no-repeat;
