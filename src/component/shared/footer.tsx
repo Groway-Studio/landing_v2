@@ -28,7 +28,7 @@ export default function Footer() {
             </article>
             <article> <strong>EE.UU</strong><br/> +1 786 7558193</article>
             <article> <strong>Argentina</strong><br/> +54 11 52175854</article>
-            <article> <strong>Colombia</strong><br/> +57 15800311</article>
+            <article> <strong>Colombia</strong>+57 15800311</article>
           </aside>
         </section>
       </div>

@@ -13,7 +13,7 @@
     @include tablet{
         width: $container-tablet;
         flex-direction: column;
-        margin-top: 61px;
+        margin-top: 140px;
     }
 }
 .contentHero{
@@ -48,6 +48,9 @@
 }
 .ilusHero{
     width: 459px;
+    @include tablet {
+        margin-top: 60px;
+    }
 }
 
 

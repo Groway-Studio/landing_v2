@@ -45,7 +45,17 @@
       align-items: center;
       &:first-child{
         @include tablet {
-            flex: 2 1 1;
+          width: 100%;
+            // flex: 2 2 ;
+            flex-direction: column;
+            margin-bottom: 24px;
+        }
+        img{
+          margin-bottom: 24px;
+        }
+        h2{
+          text-align: center;
+          width: 40%;
         }
       }
       &:nth-child(2) {

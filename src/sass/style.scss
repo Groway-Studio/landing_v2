@@ -36,9 +36,15 @@ h1{
 }
 h2{
   font-size: var(--title-h2);
+  @include tablet {
+    font-size: var(--title-h3);     
+  }
 }
 h3{
   font-size: var(--title-h3);
+  @include tablet {
+    font-size: var(--size-2);     
+  }
 }
 
 p{

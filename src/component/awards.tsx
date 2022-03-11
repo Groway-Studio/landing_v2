@@ -13,7 +13,7 @@ export default function Awards() {
         <section className="container">
           <aside className="asideAward">
             <img src={award} alt="" />
-            <h3>Premios y Reconocimientos</h3>
+            <h2>Premios y Reconocimientos</h2>
           </aside>
           <aside>
           <img src={premio1} alt="" />

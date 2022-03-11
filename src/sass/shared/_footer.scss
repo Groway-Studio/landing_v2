@@ -39,9 +39,21 @@
       article {
         color: $neutral-color-0;
         padding-right: 40px;
+        @include tablet {
+          padding-bottom: 16px;
+        padding-right: 0;
+          &:last-child{
+            display: flex;
+            flex-direction: column;
+          }
+        }
         &:first-child {
           width: 36%;
+          @include tablet {
+            width: 100%;
+          }
         }
+       
         strong {
           font-weight: bold;
         }
