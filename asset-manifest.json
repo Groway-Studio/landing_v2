@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bd441577.css",
-    "main.js": "/static/js/main.15809c01.js",
+    "main.css": "/static/css/main.3fa62a58.css",
+    "main.js": "/static/js/main.63c425d7.js",
     "static/media/logo2.svg": "/static/media/logo2.984bb96f9d241dc2a015cc3c8340c5b6.svg",
     "static/media/ilus-hero.svg": "/static/media/ilus-hero.7684b8b33b3018d5140eb3c6fe7ab75d.svg",
     "static/media/ilus-service.svg": "/static/media/ilus-service.80a20ab21e0d65b6284abb03b45f85bc.svg",
@@ -29,11 +29,11 @@
     "static/media/blob-header.svg": "/static/media/blob-header.40bf460f070ed3d8fb2ca2ada5514803.svg",
     "static/media/4.svg": "/static/media/4.f1a2df614bf1a7899ae9df656f6391aa.svg",
     "static/media/1.svg": "/static/media/1.3de46076120c649723ed3ff4b2c4702e.svg",
-    "main.bd441577.css.map": "/static/css/main.bd441577.css.map",
-    "main.15809c01.js.map": "/static/js/main.15809c01.js.map"
+    "main.3fa62a58.css.map": "/static/css/main.3fa62a58.css.map",
+    "main.63c425d7.js.map": "/static/js/main.63c425d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd441577.css",
-    "static/js/main.15809c01.js"
+    "static/css/main.3fa62a58.css",
+    "static/js/main.63c425d7.js"
   ]
 }
