@@ -18,6 +18,6 @@ export default function Home() {
     <Awards />
     <Alliance />
     <Cta />
-    {/* <Footer /> */}
+    <Footer />
   </React.Fragment>;
 }
